@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.htes.spidersgone.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "spidersgone.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "SpiderModelMixin",
+    "SpiderRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
